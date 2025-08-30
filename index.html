@@ -2,64 +2,149 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BFTS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Flow Tech Solutions</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
     <div class="logo">
-        <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
-            <!-- Binary stream background -->
-            <g class="binary-stream">
-                <text x="10" y="20" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit">0</text>
-                <text x="30" y="20" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit" style="animation-delay: 0.2s;">1</text>
-                <text x="50" y="20" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit" style="animation-delay: 0.4s;">0</text>
-                <text x="70" y="20" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit" style="animation-delay: 0.6s;">1</text>
-                <text x="10" y="40" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit" style="animation-delay: 0.8s;">1</text>
-                <text x="30" y="40" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit" style="animation-delay: 1s;">0</text>
-                <text x="50" y="40" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit" style="animation-delay: 1.2s;">0</text>
-                <text x="70" y="40" font-size="10" fill="#00FFFF" opacity="0.3" class="binary-digit" style="animation-delay: 1.4s;">1</text>
-            </g>
-            <!-- Main logo text -->
-            <text x="10" y="50" font-size="24" font-family="Inter, sans-serif" font-weight="bold" fill="#00FFFF" class="logo-text">Binary Flow</text>
-        </svg>
+        <span class="binary-digit">0</span>
+        <span class="binary-digit">1</span>
+        <span class="binary-digit">0</span>
+        <span class="binary-digit">1</span>
+        <span class="binary-digit">1</span>
+        <span class="binary-digit">0</span>
+        <span class="binary-digit">0</span>
+        <span class="binary-digit">1</span>
+        <span class="logo-text">Binary Flow</span>
     </div>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
-<section class="hero">
-    <h1>Streamlining Your Digital Future</h1>
-    <p>Innovative IT Solutions Powered by Cutting-Edge Technology</p>
-    <button>Get Started</button>
-</section>
-<section id="services" class="bento-grid">
-    <div class="bento-card">
-        <h2>AI Development</h2>
-        <p>Harness AI to transform your business operations.</p>
-    </div>
-    <div class="bento-card">
-        <h2>Cloud Solutions</h2>
-        <p>Seamless migration and management in the cloud.</p>
-    </div>
-    <div class="bento-card">
-        <h2>Cybersecurity</h2>
-        <p>Protect your data with advanced security protocols.</p>
-    </div>
-</section>
-<footer>
-    &copy; 2025 Binary Flow Tech Solutions. All rights reserved.
-</footer>
-<script src="script.js"></script>
-</body>
-</html></title>
-</head>
-<body>
 
+<section id="home" class="hero section">
+    <h1>Streamlining Your Digital Future</h1>
+    <p>Innovative IT Solutions for Learning, Healthcare, and E-commerce</p>
+    <button class="cta-button">Get Started</button>
+</section>
+
+<section id="about" class="section about">
+    <h2>About Us</h2>
+    <p>At Binary Flow Tech Solutions, we craft cutting-edge software for education, healthcare billing, and e-commerce.
+        Our mission is to empower businesses with innovative, scalable, and user-centric solutions.</p>
+    <div class="about-features">
+        <div class="feature-card">
+            <h3>Innovation</h3>
+            <p>Pioneering technology to transform industries.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Expertise</h3>
+            <p>Deep industry knowledge for tailored solutions.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Impact</h3>
+            <p>Driving success through user-focused design.</p>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section bento-grid">
+    <h2>Our Services</h2>
+    <div class="bento-card">
+        <h3>Educational Software</h3>
+        <p>Engaging platforms to revolutionize learning experiences.</p>
+    </div>
+    <div class="bento-card">
+        <h3>Healthcare Billing</h3>
+        <p>Streamlined, compliant billing systems for healthcare providers.</p>
+    </div>
+    <div class="bento-card">
+        <h3>E-commerce Solutions</h3>
+        <p>Robust apps and websites for seamless online shopping.</p>
+    </div>
+    <div class="bento-card">
+        <h3>AI Development</h3>
+        <p>Leverage AI to optimize business operations.</p>
+    </div>
+    <div class="bento-card">
+        <h3>Cloud Solutions</h3>
+        <p>Effortless cloud migration and management.</p>
+    </div>
+    <div class="bento-card">
+        <h3>Cybersecurity</h3>
+        <p>Advanced protocols to safeguard your data.</p>
+    </div>
+</section>
+
+<section id="portfolio" class="section portfolio">
+    <h2>Our Work</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Learning+Platform" alt="Learning Platform">
+            <div class="portfolio-overlay">
+                <h3>Learning Platform</h3>
+                <p>Interactive app for personalized education.</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Healthcare+Billing" alt="Healthcare Billing">
+            <div class="portfolio-overlay">
+                <h3>Healthcare Billing</h3>
+                <p>Efficient billing system for medical facilities.</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Shopping+App" alt="Shopping App">
+            <div class="portfolio-overlay">
+                <h3>E-commerce App</h3>
+                <p>Feature-rich platform for online retail.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="section blog">
+    <h2>Blog</h2>
+    <div class="blog-grid">
+        <div class="blog-post">
+            <h3>AI in Education</h3>
+            <p>How AI is transforming learning environments.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>Secure Healthcare Billing</h3>
+            <p>Ensuring compliance and security in billing.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>E-commerce Trends</h3>
+            <p>The future of online shopping platforms.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 Binary Flow Tech Solutions. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
